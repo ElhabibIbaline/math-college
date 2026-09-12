@@ -1,0 +1,17 @@
+
+# Secrets et configuration locale (tous les sous-dossiers)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.keystore
+.npmrc
+
+# Dependances, sorties et journaux
+node_modules/
+dist/
+dist-ssr/
+*.log
